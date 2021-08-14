@@ -16,3 +16,6 @@ git 資料結構
 2-4
 git show [commit_id]//顯示commit修改的記錄
 git diff //比較檔案修改前後內容
+
+2-5
+git blame 檔案//顯示每一行內容的sha1,作者,時間....資訊
