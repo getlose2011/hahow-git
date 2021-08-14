@@ -1,3 +1,4 @@
+2-1
 git config --global user.name "jenhsiang"
 git config --global user.email "getlose2011@gmail.com"
 git init
@@ -5,3 +6,6 @@ git status
 git add .//全部
 git add 檔案a 檔案b
 git commit -m "edit files"
+
+2-2
+git log
