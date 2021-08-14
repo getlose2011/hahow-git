@@ -12,3 +12,7 @@ git log
 
 2-3
 git 資料結構
+
+2-4
+git show [commit_id]//顯示commit修改的記錄
+git diff //比較檔案修改前後內容
