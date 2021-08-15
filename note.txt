@@ -14,7 +14,7 @@ git log
 git 資料結構
 
 2-4
-git show [commit_id]//顯示commit修改的記錄
+git show <sha1>//顯示commit修改的記錄
 git diff //比較檔案修改前後內容
 
 2-5
@@ -37,3 +37,14 @@ for test https://hackmd.io/udMo3m7LR8e5SUfwlbE3pw
 
 3-6
 git checkout sha1 通常是回覆到某個版本，ex:找bug
+
+4-1
+git reset --hard <sha1> 還原到<sha1>版
+
+git checkout <sha1> 取出特地版本
+git checkout HEAD  無作用
+git checkout <sha1> <file> 工作目錄的<file>會變成<sha1>版本
+git checkout <sha1> . 工作目錄的所有檔案會變成<sha1>
+git checkout HEAD <file> 工作目錄的<file>會變成HEAD版本 , 還未commit之前，可以把該檔案還原
+git checkout -- <file> 跟git checkout HEAD <file>指令一樣
+git checkout -- . 跟git checkout -- <file> .相似 , 這個指令是全部檔案
