@@ -27,3 +27,13 @@ git remote show origin
 git clone
 git pull
 git fetch
+
+3-5
+markdown
+1.文件容易閱讀、編寫
+2.網路內容的寫作用語言
+3.HackMD(https://hackmd.io)
+for test https://hackmd.io/udMo3m7LR8e5SUfwlbE3pw
+
+3-6
+git checkout sha1 通常是回覆到某個版本，ex:找bug
