@@ -22,3 +22,8 @@ git blame 檔案//顯示每一行內容的sha1,作者,時間....資訊
 
 3-2
 git remote show origin
+
+3-3
+git clone
+git pull
+git fetch
