@@ -48,3 +48,8 @@ git checkout <sha1> . 工作目錄的所有檔案會變成<sha1>
 git checkout HEAD <file> 工作目錄的<file>會變成HEAD版本 , 還未commit之前，可以把該檔案還原
 git checkout -- <file> 跟git checkout HEAD <file>指令一樣
 git checkout -- . 跟git checkout -- <file> .相似 , 這個指令是全部檔案
+
+4-2
+git branch <bn> //建立分支名稱
+git branch <bn> <sha1> //建立分支名稱,並指定在<sha1>
+git branch -D <bn> //<bn>可以多個
