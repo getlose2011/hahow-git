@@ -9,6 +9,7 @@ git commit -m "edit files"
 
 2-2
 git log
+git log --oneline //每一筆提交顯示成單獨一行
 
 2-3
 git 資料結構
@@ -53,3 +54,28 @@ git checkout -- . 跟git checkout -- <file> .相似 , 這個指令是全部檔�
 git branch <bn> //建立分支名稱
 git branch <bn> <sha1> //建立分支名稱,並指定在<sha1>
 git branch -D <bn> //<bn>可以多個
+
+4-3
+git merge 分支 //要合併的分支
+
+4-4
+git merge --abort //放棄此次合併
+衝突的樣式
+<<<<<<< HEAD
+工作區所改的內容
+=======
+分支改的內容
+>>>>>>> 分支名稱
+解決衝突後git status看狀態
+git add 合併的檔案
+git status 看狀態
+git commit 完成這次合併
+
+4-5
+git cherry-pick <sha1> //只撿某些 Commit 來用
+
+4-6
+git reflog //詳細顯示你每個指令的 SHA-1 值
+git reset --hard //
+git reset --mixed //預設
+git reset --soft
