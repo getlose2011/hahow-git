@@ -79,3 +79,12 @@ git reflog //詳細顯示你每個指令的 SHA-1 值
 git reset --hard //
 git reset --mixed //預設
 git reset --soft
+
+4-7
+git rebase //合併分支
+
+4-8
+git stash //暫存還不想放到正式記錄的工作
+git stash list //列出目前已經放在暫存堆疊的內容
+git stash pop //還原暫存堆疊的內容
+git stath drop //刪除暫存堆疊的內容
